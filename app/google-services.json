@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1087333273209",
+    "firebase_url": "https://driver-d2a86.firebaseio.com",
+    "project_id": "driver-d2a86",
+    "storage_bucket": "driver-d2a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087333273209:android:d38b9659600dcd1d",
+        "android_client_info": {
+          "package_name": "com.shayekh.android.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087333273209-qskm2s350khhmj92k3vo1l96o8i5rhld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shayekh.android.driver",
+            "certificate_hash": "347152b1e3c6360b4abc05bbe947579576393471"
+          }
+        },
+        {
+          "client_id": "1087333273209-kc4biudfu2osj84rllna8gsp32jrq591.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuPamg8gb0Gs5mjcChTjLp7J_vKNXxZog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087333273209-kc4biudfu2osj84rllna8gsp32jrq591.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

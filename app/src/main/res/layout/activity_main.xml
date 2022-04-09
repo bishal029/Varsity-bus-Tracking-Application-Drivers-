@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:id="@+id/driverStatusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            ></Spinner>
+
+        <TextView
+            android:id="@+id/driverStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:text="@string/offline"
+           android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            tools:ignore="RtlCompat" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/driverStatusSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:checked="false"
+            android:theme="@style/SCBSwitch"
+            tools:ignore="RtlCompat" />
+    </FrameLayout>
+    <fragment
+        android:id="@+id/supportMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/driverStatusLayout"
+        tools:context="spartons.com.frisbeeGo.fragments.MapFragment" />
+</RelativeLayout>
